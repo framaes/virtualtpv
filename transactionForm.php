@@ -39,13 +39,6 @@ $errorURL = "http://localhost/TPVVirtual/errorURL.php";
 $successURL = "http://localhost/TPVVirtual/successURL.php";
 $statusURL = "http://localhost/TPVVirtual/statusURL.php";
 
-/*$data = "amount=" . $amount . "&apiVersion=" . $apiVersion . "&country=" . $country . "&currency=" . $currency .
-    "&description=" . $description . "&merchantId=" . $merchantId . "&merchantTransactionId=" . $merchantTransactionId .
-    "&operationType=" . $operationType . "&paymentSolution=" . $paymentSolution . "&transactionId=" . $transactionId .
-    "&addressLine1=" . $addressLine1 . "&addressLine2=" . $addressLine2 . "&city=" . $city . "&firstname=" . $firstName .
-    "&postCode=" . $postCode . "&customerCountry=" . $customerCountry . "&errorURL=" . $errorURL . "&successURL=" .
-    $successURL . "&statusURL=" . $statusURL . "&customerId=" . $customerId;*/
-
 $data = "amount=" . $amount . "&apiVersion=" . $apiVersion . "&country=" . $country . "&currency=" . $currency .
     "&description=" . $description . "&merchantId=" . $merchantId . "&merchantTransactionId=" . $merchantTransactionId
     ."&operationType=" . $operationType . "&paymentSolution=" . $paymentSolution .
